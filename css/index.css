@@ -1,0 +1,240 @@
+/* Colors  =>> acb3ba // 868c92 */
+
+
+/* Setting The Background Image For The Body */
+
+body {
+    background: url("../imgs/Background.png") top center no-repeat fixed;
+    background-size: cover;
+}
+
+
+/* Setting the Upper Image */
+
+
+/* .upper-image {
+    background: url("../imgs/up.png") top center no-repeat fixed;
+    background-size: cover;
+    z-index: 2 !important;
+    min-height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+/* Styling The Left Side Bar */
+
+.left-side {
+    color: #acb3ba;
+    height: 100%;
+    position: relative;
+}
+
+.left-side a {
+    color: #acb3ba !important;
+    text-decoration: none !important;
+}
+
+.social-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.social-list,
+.down-arrow-div {
+    overflow: hidden;
+    height: 120px;
+    position: absolute;
+    top: 450px;
+}
+
+.social-list {
+    z-index: 22;
+    top: 430px;
+}
+
+.down-arrow-div {
+    z-index: 33;
+    background: url("../imgs/Background.png");
+}
+
+.flaticon-up-arrow,
+.flaticon-down-arrow {
+    cursor: pointer;
+}
+
+.left-side i {
+    font-family: "fancy-signture";
+    padding: 5px 0;
+}
+
+
+/* Styling The Middle Section Here */
+
+.middle-section {
+    color: #acb3ba;
+}
+
+.middle-section .custome-btn {
+    background-color: transparent;
+    color: inherit !important;
+    border: none;
+    margin-left: -25px !important;
+    /* Duo The Flaticon Customization */
+}
+
+.middle-section .flaticon-menu:before {
+    font-size: 2rem;
+}
+
+.middle-section h1,
+.middle-section h2 {
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    font-family: "roboto";
+}
+
+.middle-section h1 {
+    font-size: 5rem;
+    margin-bottom: -5px;
+}
+
+.middle-section h2 {
+    font-size: 2.5rem;
+}
+
+.middle-section p {
+    font-size: 1.3rem;
+}
+
+.middle-section p:nth-of-type(2) {
+    margin-top: -15px;
+}
+
+.middle-section .flaticon-download:before {
+    font-size: 1.5rem;
+    text-shadow: 2px 0px 5px #fff, -2px 0px 5px #fff;
+    cursor: pointer;
+}
+
+.middle-section .download p {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.middle-section .download .small {
+    margin-left: 10px;
+}
+
+.middle-section .signture {
+    font-family: "fancy-signture";
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.mobile-social {
+    /* Displayed on Small Screen Only*/
+    margin-top: -20px !important;
+}
+
+.mobile-social a {
+    color: #acb3ba !important;
+    text-decoration: none !important;
+}
+
+
+/* Styling The Modal Body Section */
+
+.custome-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 555;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(1, 1, 1, .9);
+}
+
+.hide-custome-modal {
+    display: none;
+}
+
+.custome-modal .close-btn,
+.custome-modal ul li {
+    cursor: pointer;
+}
+
+
+/* Styling The Book Div Section */
+
+.book img {
+    box-shadow: -15px 15px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav-list li a,
+.sub-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-family: "roboto";
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.nav-list li,
+.sub-list li {
+    margin-bottom: 30px;
+}
+
+.nav-list li a:hover {
+    text-shadow: 5px 0px 10px #fff, -5px 0px 10px
+}
+
+.sub-list li a:hover {
+    text-shadow: 5px 0px 10px #fff, -5px 0px 10px
+}
+
+.sub-list ul {
+    display: none;
+}
+
+.sub-list ul:nth-of-type(1) {
+    display: block;
+}
+
+
+/* ************************ Fonts ************************ */
+
+
+/* Roboto Font */
+
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Black.ttf");
+    src: url("../fonts/Roboto-BlackItalic.ttf");
+    src: url("../fonts/Roboto-Bold.ttf");
+    src: url("../fonts/Roboto-BoldItalic.ttf");
+    src: url("../fonts/Roboto-Light.ttf");
+    src: url("../fonts/Roboto-LightItalic.ttf");
+    src: url("../fonts/Roboto-Medium_0.ttf");
+    src: url("../fonts/Roboto-MediumItalic.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-RegularItalic.ttf");
+}
+
+
+/* Fancy Singture Font */
+
+@font-face {
+    font-family: "fancy-signture";
+    src: url(../fonts/Fancy\ Signature.ttf);
+    src: url("../fonts/Fancy Signature Extras.ttf");
+}
